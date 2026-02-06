@@ -21,10 +21,11 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Welcome! This bot removes background from images automatically. "
-        "Send a photo or reply to an image with /removebg. "
-        "Supported formats: JPG, PNG, WEBP. Fast and easy to use. "
-        "Developed by: Mohammodullah Al Mahin - @being_lame"
+        "Welcome! This bot removes background from images automatically.\n"
+        "Send a photo or reply to an image with /removebg.\n"
+        "Supported formats: JPG, PNG, WEBP. Fast and easy to use.\n"
+        "Developed by: Mohammodullah Al Mahin - @being_lame \n"
+        "Visit my Website: https://mahinexe.github.io/portfolio/ "
     )
 
 # /about command
@@ -33,8 +34,10 @@ async def about(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "BG Remover Bot\n"
         "Removes background from your images automatically.\n"
         "Fast and easy to use.\n"
-        "Developed by: Mohammodullah Al Mahin - @being_lame\n"
+        
         "Supported formats: JPG, PNG, WEBP"
+        "Developed by: Mohammodullah Al Mahin - @being_lame\n"
+        "Visit my Website: https://mahinexe.github.io/portfolio/ "
     )
 
 # Function to remove background from an image
