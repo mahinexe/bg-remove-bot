@@ -23,8 +23,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Welcome! This bot removes background from images automatically.\n"
         "Send a photo or reply to an image with /removebg.\n"
-        "Supported formats: JPG, PNG, WEBP. Fast and easy to use.\n"
-        "Developed by: Mohammodullah Al Mahin - @being_lame \n\n"
+        "Supported formats: JPG, PNG, WEBP. Fast and easy to use.\n\n"
+        "Developed by: Mohammodullah Al Mahin - @being_lame \n"
         "Visit my Website: https://mahinexe.github.io/portfolio/ "
     )
 
@@ -35,8 +35,8 @@ async def about(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Removes background from your images automatically.\n"
         "Fast and easy to use.\n"
         
-        "Supported formats: JPG, PNG, WEBP\n"
-        "Developed by: Mohammodullah Al Mahin - @being_lame\n\n"
+        "Supported formats: JPG, PNG, WEBP\n\n"
+        "Developed by: Mohammodullah Al Mahin - @being_lame\n"
         "Visit my Website: https://mahinexe.github.io/portfolio/ "
     )
 
